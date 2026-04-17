@@ -1,0 +1,16 @@
+{
+  "name": "masterjichallange-main-project",
+  "version": "1.0.0",
+  "description": "A backend at MasterJi challange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MasterJi",
+    "Backend",
+    "Chai"
+  ],
+  "author": "Vishal Singh",
+  "license": "ISC"
+}
