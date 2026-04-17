@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A backend at MasterJi challange",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "MasterJi",
@@ -12,5 +14,8 @@
     "Chai"
   ],
   "author": "Vishal Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
